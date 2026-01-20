@@ -24,7 +24,7 @@ public class Safe {
         }
         else {
             ArrayList<String> wrongPin = new ArrayList<String>();
-            wrongPin.add("Väärä PIN-koodi");
+            wrongPin.add("Väärä PIN-koodi!");
             return wrongPin;
         } 
     }
